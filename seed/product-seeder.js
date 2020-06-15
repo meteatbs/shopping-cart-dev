@@ -3,7 +3,7 @@ var Product =require('../models/product');
 var mongoose=require('mongoose');
 // const { exists } = require('../models/product');
 
-mongoose.connect('mongodb+srv://metea:Nq1Hm0vGqUl3Qtx9@cluster0-420j1.mongodb.net/test?authSource=admin&replicaSet=Cluster0-shard-0&readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=true', {useNewUrlParser: true } );
+mongoose.connect('');
 
 var products=[
     new Product({
